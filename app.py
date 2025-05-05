@@ -1,5 +1,6 @@
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
+transcript = YouTubeTranscriptApi.get_transcript("qYNweeDHiyU", proxies={"http": "http://your-proxy:port", "https": "http://your-proxy:port"})
 from urllib.parse import urlparse, parse_qs
 from transformers import pipeline
 import ssl
