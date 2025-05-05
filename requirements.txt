@@ -1,1 +1,4 @@
-install streamlit youtube-transcript-api transformers
+streamlit
+youtube-transcript-api
+transformers
+torch
