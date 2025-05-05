@@ -14,7 +14,9 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 # Load summarizer
-summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6", tokenizer="sshleifer/distilbart-cnn-12-6")
+summarizer = pipeline("summarization", model="Falconsai/text_summarization")
+
+
 
 # Functions
 def get_video_id(url):
