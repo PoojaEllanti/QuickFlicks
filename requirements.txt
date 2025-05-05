@@ -1,7 +1,6 @@
-streamlit==1.32.2
-youtube-transcript-api==0.4.5
-transformers==4.36.2
-torch==2.0.1
-sentencepiece==0.1.99
-
+streamlit
+youtube-transcript-api
+transformers
+torch
+urllib3
 
